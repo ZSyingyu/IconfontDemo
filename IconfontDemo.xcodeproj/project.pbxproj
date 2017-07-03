@@ -15,6 +15,10 @@
 		100AE6B21F04D67500E3C630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 100AE6B01F04D67500E3C630 /* LaunchScreen.storyboard */; };
 		100AE6BD1F04D67500E3C630 /* IconfontDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100AE6BC1F04D67500E3C630 /* IconfontDemoTests.m */; };
 		100AE6C81F04D67500E3C630 /* IconfontDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 100AE6C71F04D67500E3C630 /* IconfontDemoUITests.m */; };
+		100AE6D61F04D72300E3C630 /* iconfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 100AE6D51F04D72300E3C630 /* iconfont.ttf */; };
+		100AE6DE1F04D73400E3C630 /* TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 100AE6D91F04D73400E3C630 /* TBCityIconFont.m */; };
+		100AE6DF1F04D73400E3C630 /* TBCityIconInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 100AE6DB1F04D73400E3C630 /* TBCityIconInfo.m */; };
+		100AE6E01F04D73400E3C630 /* UIImage+TBCityIconFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 100AE6DD1F04D73400E3C630 /* UIImage+TBCityIconFont.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,13 @@
 		100AE6C31F04D67500E3C630 /* IconfontDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IconfontDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		100AE6C71F04D67500E3C630 /* IconfontDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IconfontDemoUITests.m; sourceTree = "<group>"; };
 		100AE6C91F04D67500E3C630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		100AE6D51F04D72300E3C630 /* iconfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = iconfont.ttf; sourceTree = "<group>"; };
+		100AE6D81F04D73400E3C630 /* TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconFont.h; sourceTree = "<group>"; };
+		100AE6D91F04D73400E3C630 /* TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconFont.m; sourceTree = "<group>"; };
+		100AE6DA1F04D73400E3C630 /* TBCityIconInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TBCityIconInfo.h; sourceTree = "<group>"; };
+		100AE6DB1F04D73400E3C630 /* TBCityIconInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBCityIconInfo.m; sourceTree = "<group>"; };
+		100AE6DC1F04D73400E3C630 /* UIImage+TBCityIconFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+TBCityIconFont.h"; sourceTree = "<group>"; };
+		100AE6DD1F04D73400E3C630 /* UIImage+TBCityIconFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+TBCityIconFont.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +112,8 @@
 		100AE6A11F04D67500E3C630 /* IconfontDemo */ = {
 			isa = PBXGroup;
 			children = (
+				100AE6D71F04D73400E3C630 /* IconFont */,
+				100AE6D51F04D72300E3C630 /* iconfont.ttf */,
 				100AE6A51F04D67500E3C630 /* AppDelegate.h */,
 				100AE6A61F04D67500E3C630 /* AppDelegate.m */,
 				100AE6A81F04D67500E3C630 /* ViewController.h */,
@@ -138,6 +151,19 @@
 				100AE6C91F04D67500E3C630 /* Info.plist */,
 			);
 			path = IconfontDemoUITests;
+			sourceTree = "<group>";
+		};
+		100AE6D71F04D73400E3C630 /* IconFont */ = {
+			isa = PBXGroup;
+			children = (
+				100AE6D81F04D73400E3C630 /* TBCityIconFont.h */,
+				100AE6D91F04D73400E3C630 /* TBCityIconFont.m */,
+				100AE6DA1F04D73400E3C630 /* TBCityIconInfo.h */,
+				100AE6DB1F04D73400E3C630 /* TBCityIconInfo.m */,
+				100AE6DC1F04D73400E3C630 /* UIImage+TBCityIconFont.h */,
+				100AE6DD1F04D73400E3C630 /* UIImage+TBCityIconFont.m */,
+			);
+			path = IconFont;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100AE6D61F04D72300E3C630 /* iconfont.ttf in Resources */,
 				100AE6B21F04D67500E3C630 /* LaunchScreen.storyboard in Resources */,
 				100AE6AF1F04D67500E3C630 /* Assets.xcassets in Resources */,
 				100AE6AD1F04D67500E3C630 /* Main.storyboard in Resources */,
@@ -276,8 +303,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				100AE6DF1F04D73400E3C630 /* TBCityIconInfo.m in Sources */,
 				100AE6AA1F04D67500E3C630 /* ViewController.m in Sources */,
 				100AE6A71F04D67500E3C630 /* AppDelegate.m in Sources */,
+				100AE6DE1F04D73400E3C630 /* TBCityIconFont.m in Sources */,
+				100AE6E01F04D73400E3C630 /* UIImage+TBCityIconFont.m in Sources */,
 				100AE6A41F04D67500E3C630 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,6 +457,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4G3GS9D6JL;
 				INFOPLIST_FILE = IconfontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zyy.IconfontDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -439,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 4G3GS9D6JL;
 				INFOPLIST_FILE = IconfontDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zyy.IconfontDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
