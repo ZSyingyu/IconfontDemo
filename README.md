@@ -1,6 +1,6 @@
 # IconfontDemo
 
-Iconfont的使用:对照[使用说明](http://www.jianshu.com/p/a422f746d6e4)
+Iconfont的使用:
 众所周知,在一个app中我们会用到很多的图标,有的时候这些图标还需要显示不同的颜色,大小等等.所以就有了iconfont的出现.[iconfont的官方网址](http://www.iconfont.cn/).这是阿里巴巴矢量图标库,用这个,可以自由的确定图标的大小,颜色,不在需要等美工同学做出相应尺寸的图.
 说一下使用方法和步骤:
 第一步,当然是打开[iconfont的官方网址](http://www.iconfont.cn/)(语文水平不高,觉得啰嗦的看重点就行...).
